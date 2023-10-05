@@ -3,12 +3,13 @@ const helmet = require('helmet');
 const app = express();
 const PORT = process.env.PORT || 3030;
 
+// my code
 
+app.listen(PORT, () => {
+  console.log(`Info Sec App started on port ${PORT}`);
+});
 
-
-
-
-
+app.use(helmet.hidePowerBy());
 
 
 
