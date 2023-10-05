@@ -16,8 +16,5 @@
 		"express",
 		"freecodecamp"
 	],
-	"license": "MIT",
-	"devDependencies": {
-		"@types/helmet": "^4.0.0"
-	}
+	"license": "MIT"
 }
