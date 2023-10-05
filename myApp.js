@@ -8,7 +8,7 @@ app.listen(PORT, () => {
   console.log(`Info Sec App started on port ${PORT}`);
 });
 
-app.use(helmet.hidePowerBy());
+app.use(helmet.hidePoweredBy());
 
 
 
