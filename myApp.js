@@ -5,11 +5,13 @@ const PORT = process.env.PORT || 3030;
 
 // my code
 
+app.use(helmet.hidePowerBy());
+
 app.listen(PORT, () => {
   console.log(`Info Sec App started on port ${PORT}`);
 });
 
-app.use(helmet.hidePowerBy());
+
 
 
 
